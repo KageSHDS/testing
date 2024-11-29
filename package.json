@@ -1,0 +1,19 @@
+{
+  "name": "test-md13",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/data.test.mjs",
+    "test2": "mocha test/sinon.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "cypress": "^13.16.0",
+    "mocha": "^10.8.2",
+    "sinon": "^19.0.2"
+  }
+}
